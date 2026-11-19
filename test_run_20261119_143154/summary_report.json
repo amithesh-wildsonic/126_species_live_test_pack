@@ -1,0 +1,18 @@
+{
+  "test_timestamp_utc": "2026-11-19T09:02:16.056893+00:00",
+  "target_species_count": 2,
+  "total_audio_plays": 2,
+  "top1_hits": 0,
+  "top1_accuracy_pct": 0.0,
+  "top2_hits": 0,
+  "top2_accuracy_pct": 0.0,
+  "misses": 0,
+  "miss_rate_pct": 0.0,
+  "no_evaluable_windows": 2,
+  "silence_windows_evaluated": 0,
+  "silence_false_positives": 0,
+  "silence_false_positive_rate_pct": 0.0,
+  "assert_interruption_count": 0,
+  "staging_max_high_water_blocks": 0,
+  "staging_lost_samples": 0
+}

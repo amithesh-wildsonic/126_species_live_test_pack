@@ -1,0 +1,1 @@
+window_id,alignment_status,matched_event_id,top1_class_id,top1_name,top1_conf_q8,top1_conf_pct,top2_class_id,top2_name,top2_conf_q8,top2_conf_pct,cnn_us,recv_host_utc

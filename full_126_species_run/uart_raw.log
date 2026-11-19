@@ -1,0 +1,600 @@
+[2026-11-19T09:25:33.830476Z] 73
+[2026-11-19T09:25:33.831229Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=1337344 queued=270336 fed=1296000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:25:33.831841Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 10: top1=Background (id=126, q8=184) top2=Black-winged Kite (id=11, q8=29) cnn_us=6273
+[2026-11-19T09:25:33.832386Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=1482752 queued=296960 fed=1440000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:25:33.832911Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 11: top1=Background (id=126, q8=152) top2=Black-winged Kite (id=11, q8=34) cnn_us=6273
+[2026-11-19T09:25:33.833418Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=1628160 queued=325632 fed=1584000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:25:33.833936Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 12: top1=Background (id=126, q8=217) top2=Black-winged Kite (id=11, q8=30) cnn_us=6273
+[2026-11-19T09:25:33.834511Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=1773568 queued=356352 fed=1728000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:25:33.835059Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 13: top1=Background (id=126, q8=246) top2=Black-winged Kite (id=11, q8=24) cnn_us=6273
+[2026-11-19T09:25:33.835565Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=1916928 queued=382976 fed=1872000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:25:33.836126Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 14: top1=Background (id=126, q8=229) top2=Black-winged Kite (id=11, q8=28) cnn_us=6273
+[2026-11-19T09:25:33.836663Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=2066432 queued=413696 fed=2016000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:25:33.837183Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 15: top1=Background (id=126, q8=237) top2=Greater Coucal (id=46, q8=27) cnn_us=6273
+[2026-11-19T09:25:33.837700Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=2209792 queued=442368 fed=2160000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:25:33.838249Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 16: top1=Background (id=126, q8=145) top2=Black-winged Kite (id=11, q8=35) cnn_us=6273
+[2026-11-19T09:25:33.838732Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=2355200 queued=471040 fed=2304000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:25:33.839263Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 17: top1=Background (id=126, q8=159) top2=Rock Pigeon (id=96, q8=30) cnn_us=6273
+[2026-11-19T09:25:33.839723Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=2502656 queued=499712 fed=2448000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:25:33.840261Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 18: top1=Eurasian Hoopoe (id=36, q8=73) top2=Alexandrine Parakeet (id=0, q8=65) cnn_us=6273
+[2026-11-19T09:25:33.840719Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=2650112 queued=532480 fed=2592000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:25:33.841173Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 19: top1=Background (id=126, q8=146) top2=Paddyfield Pipit (id=82, q8=28) cnn_us=6273
+[2026-11-19T09:25:33.841689Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=2795520 queued=567296 fed=2736000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:25:33.841791Z] Bootloader SHA: f356577
+[2026-11-19T09:25:33.841992Z] Bootloader Build Date: Thu 19 Nov 2026 02:27:19 PM IST
+[2026-11-19T09:25:33.842117Z] Jumping to the main firmware...
+[2026-11-19T09:25:33.842147Z] ...
+[2026-11-19T09:25:33.842329Z] Version: 1.1.1
+[2026-11-19T09:25:33.842537Z] GIT Branch: feather-ai-detection-validated, SHA: f356577
+[2026-11-19T09:25:33.842707Z] Build Date: Thu 19 Nov 2026 02:27:19 PM IST
+[2026-11-19T09:25:33.843000Z] C:0 [F:(../lib/hal/src/max78000/w_hal_system.cpp), L:258] Basic System Init Done
+[2026-11-19T09:25:33.844028Z] C:0 [F:(../lib/hal/src/max78000/w_hal_pm.cpp), L:1287] Battery_voltage: 0 mV, Battery_current: 0 mA, Battery_remaining_capacity: 0 mAH, Battery_full_charge_capacity: 0 mAH, Battery_average_current: 0 mA, Battery_time_to_empty: 0 sec, Battery_average_power: 0 mW, Battery_temperature: -273 C
+[2026-11-19T09:25:33.844409Z] C:0 [F:(../lib/hal/src/max78000/w_hal_sd_card.cpp), L:147] SD Card Init Done
+[2026-11-19T09:25:33.844665Z] Configuration file is missing. Using earlier programmed configuration.
+[2026-11-19T09:25:33.844826Z] Configuration status file has been created
+[2026-11-19T09:25:34.567316Z] C:0 [F:(../lib/hal/src/max78000/w_hal_i2s.cpp), L:768] Codec/Microphone enabled!
+[2026-11-19T09:25:34.573314Z] C:0 [F:(../lib/hal/src/max78000/w_hal_i2s.cpp), L:952] I2S Init Done
+[2026-11-19T09:25:34.580489Z] C:0 [F:(../lib/hal/src/max78000/w_hal_uart.cpp), L:238] UART channel 0 Initialized
+[2026-11-19T09:25:35.690163Z] BLE init: no AT response after 10 attempts; continuing without BLE initialization
+[2026-11-19T09:25:36.749514Z] AI DETECTION INITIALIZATION
+[2026-11-19T09:25:36.751785Z] Model: wildsonicnet_s
+[2026-11-19T09:25:36.753661Z] Model Version: 3
+[2026-11-19T09:25:36.755776Z] Sampling Rate: 48000 Hz
+[2026-11-19T09:25:36.757855Z] Format: Signed 16-bit PCM
+[2026-11-19T09:25:36.758983Z] Channels: 1
+[2026-11-19T09:25:36.760987Z] Window: 3 seconds
+[2026-11-19T09:25:36.761917Z] Samples: 144000
+[2026-11-19T09:25:36.763988Z] Configuration: VALID
+[2026-11-19T09:25:36.768003Z] Detector Selection: IGNORED (DEDICATED AI BUILD)
+[2026-11-19T09:25:36.771184Z] CNN Initialization: SUCCESS
+[2026-11-19T09:25:36.773122Z] AI Detection: ENABLED
+[2026-11-19T09:25:36.774149Z] Mode: ALWAYS ON
+[2026-11-19T09:25:36.782120Z] C:0 [F:(../app/DetectTask.cpp), L:161] AI Detection: ENABLED (Mode: ALWAYS ON, CNN: SUCCESS)
+[2026-11-19T09:25:36.790313Z] Detection audio staging: 73728 bytes (768 ms) at OCM offset 4120576
+[2026-11-19T09:25:36.824915Z] C:0 [F:(../app/StorageTask.cpp), L:1117] Last file detected in root folder: 20261119_145344_068.wav
+[2026-11-19T09:25:36.852067Z] C:0 [F:(../app/StorageTask.cpp), L:1295] Last folder detected: 
+[2026-11-19T09:25:36.863078Z] C:0 [F:(../app/StorageTask.cpp), L:1362] Discovered existing WAV at startup: /20261119_145344_068.wav (start: 1795080224 s, dur: 59 s)
+[2026-11-19T09:25:37.023043Z] C:0 [F:(../lib/hal/src/max78000/w_hal_system.cpp), L:304] 2nd-stage System Init Done
+[2026-11-19T09:25:37.028200Z] C:0 [F:(../app/main.cpp), L:468] Initialization Complete
+[2026-11-19T09:25:37.035959Z] C:1 [F:(../lib/hal/src/max78000/w_hal_rtc.cpp), L:223] Using time from External RTC
+[2026-11-19T09:25:37.043104Z] C:1 [F:(../lib/hal/src/max78000/w_hal_rtc.cpp), L:230] RTC Time UTC: 2026-11-19 09:24:51.011
+[2026-11-19T09:25:37.052211Z] C:1 [F:(../lib/hal/src/max78000/w_hal_rtc.cpp), L:253] RTC Time Local: 2026-11-19 14:54:51.019 +05:30
+[2026-11-19T09:25:37.059267Z] C:1 [F:(../lib/hal/src/max78000/w_hal_system.cpp), L:258] Basic System Init Done
+[2026-11-19T09:25:37.066581Z] C:1 [F:(../lib/hal/src/max78000/w_hal_system.cpp), L:304] 2nd-stage System Init Done
+[2026-11-19T09:25:37.071481Z] C:1 [F:(../app/main.cpp), L:468] Initialization Complete
+[2026-11-19T09:25:37.078938Z] C:0 [F:(../lib/hal/src/max78000/w_hal_system.cpp), L:335] Last System Init Done
+[2026-11-19T09:25:37.085668Z] C:1 [F:(../lib/hal/src/max78000/w_hal_system.cpp), L:335] Last System Init Done
+[2026-11-19T09:25:37.092459Z] C:0 [F:(../lib/hal/src/max78000/w_hal_i2s.cpp), L:1052] Dropped 2 samples
+[2026-11-19T09:25:37.141482Z] C:0 [F:(../app/AudioTask.cpp), L:1826] new OCM high-water mark: 4096 / 4120576 bytes
+[2026-11-19T09:25:37.183644Z] C:0 [F:(../app/AudioTask.cpp), L:1826] new OCM high-water mark: 8192 / 4120576 bytes
+[2026-11-19T09:25:37.226160Z] C:0 [F:(../app/AudioTask.cpp), L:1826] new OCM high-water mark: 12288 / 4120576 bytes
+[2026-11-19T09:25:37.269627Z] C:0 [F:(../app/AudioTask.cpp), L:1826] new OCM high-water mark: 16384 / 4120576 bytes
+[2026-11-19T09:25:40.299283Z] C:0 [F:(../app/AudioTask.cpp), L:1826] new OCM high-water mark: 20480 / 4120576 bytes
+[2026-11-19T09:25:40.342581Z] C:0 [F:(../app/AudioTask.cpp), L:1826] new OCM high-water mark: 24576 / 4120576 bytes
+[2026-11-19T09:25:40.383964Z] C:0 [F:(../app/AudioTask.cpp), L:1826] new OCM high-water mark: 28672 / 4120576 bytes
+[2026-11-19T09:25:40.555205Z] C:0 [F:(../app/AudioTask.cpp), L:1826] new OCM high-water mark: 32768 / 4120576 bytes
+[2026-11-19T09:25:40.933425Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 1: top1=Background (id=126, q8=145) top2=Alexandrine Parakeet (id=0, q8=32) cnn_us=6273
+[2026-11-19T09:25:40.943524Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=172032 queued=26624 fed=144000 lost=0 high_water=13/18 blocks
+[2026-11-19T09:25:44.137834Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 2: top1=Background (id=126, q8=173) top2=Ashy Drongo (id=1, q8=45) cnn_us=6273
+[2026-11-19T09:25:44.147918Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=319488 queued=53248 fed=288000 lost=0 high_water=13/18 blocks
+[2026-11-19T09:25:44.174288Z] C:0 [F:(../app/AudioTask.cpp), L:1826] new OCM high-water mark: 36864 / 4120576 bytes
+[2026-11-19T09:25:47.370592Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 3: top1=Alexandrine Parakeet (id=0, q8=55) top2=Background (id=126, q8=49) cnn_us=6273
+[2026-11-19T09:25:47.381705Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=466944 queued=83968 fed=432000 lost=0 high_water=14/18 blocks
+[2026-11-19T09:25:50.571974Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 4: top1=Black-winged Kite (id=11, q8=45) top2=Alexandrine Parakeet (id=0, q8=42) cnn_us=6272
+[2026-11-19T09:25:50.583082Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=612352 queued=114688 fed=576000 lost=0 high_water=15/18 blocks
+[2026-11-19T09:25:53.659351Z] C:0 [F:(../app/AudioTask.cpp), L:1826] new OCM high-water mark: 40960 / 4120576 bytes
+[2026-11-19T09:25:53.697474Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 5: top1=Ashy Drongo (id=1, q8=209) top2=Jungle Babbler (id=63, q8=72) cnn_us=6273
+[2026-11-19T09:25:53.708909Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=757760 queued=145408 fed=720000 lost=0 high_water=15/18 blocks
+[2026-11-19T09:25:56.845454Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 6: top1=Black-winged Kite (id=11, q8=86) top2=Southern Hill Myna (id=103, q8=54) cnn_us=6275
+[2026-11-19T09:25:56.856361Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=905216 queued=178176 fed=864000 lost=0 high_water=15/18 blocks
+[2026-11-19T09:25:56.919182Z] C:0 [F:(../app/AudioTask.cpp), L:1826] new OCM high-water mark: 45056 / 4120576 bytes
+[2026-11-19T09:25:59.956665Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 7: top1=Ashy Prinia (id=2, q8=61) top2=Background (id=126, q8=42) cnn_us=6273
+[2026-11-19T09:25:59.967715Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=1050624 queued=212992 fed=1008000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:03.040539Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 8: top1=Background (id=126, q8=186) top2=Ashy Prinia (id=2, q8=39) cnn_us=6272
+[2026-11-19T09:26:03.051831Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=1191936 queued=239616 fed=1152000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:06.278383Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 9: top1=Alexandrine Parakeet (id=0, q8=52) top2=Background (id=126, q8=48) cnn_us=6273
+[2026-11-19T09:26:06.289503Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=1337344 queued=270336 fed=1296000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:09.468678Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 10: top1=Background (id=126, q8=100) top2=Eurasian Collared-Dove (id=34, q8=50) cnn_us=6273
+[2026-11-19T09:26:09.479773Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=1482752 queued=299008 fed=1440000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:12.653099Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 11: top1=Background (id=126, q8=231) top2=Coppersmith Barbet (id=29, q8=25) cnn_us=6273
+[2026-11-19T09:26:12.663962Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=1628160 queued=325632 fed=1584000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:15.834063Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 12: top1=Asian Koel (id=4, q8=209) top2=Jerdon's Nightjar (id=62, q8=62) cnn_us=6273
+[2026-11-19T09:26:15.845221Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=1773568 queued=356352 fed=1728000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:19.005428Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 13: top1=Background (id=126, q8=224) top2=Paddyfield Pipit (id=82, q8=36) cnn_us=6273
+[2026-11-19T09:26:19.016341Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=1916928 queued=382976 fed=1872000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:22.216908Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 14: top1=White Wagtail (id=111, q8=76) top2=Indian Silverbill (id=59, q8=49) cnn_us=6273
+[2026-11-19T09:26:22.228207Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=2066432 queued=413696 fed=2016000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:25.367566Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 15: top1=Background (id=126, q8=233) top2=Yellow-eyed Babbler (id=122, q8=36) cnn_us=6273
+[2026-11-19T09:26:25.377925Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=2211840 queued=442368 fed=2160000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:28.549797Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 16: top1=Baya Weaver (id=6, q8=157) top2=Ashy Drongo (id=1, q8=72) cnn_us=6273
+[2026-11-19T09:26:28.561068Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=2355200 queued=473088 fed=2304000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:31.709039Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 17: top1=Background (id=126, q8=236) top2=Black-winged Kite (id=11, q8=28) cnn_us=6273
+[2026-11-19T09:26:31.719890Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=2502656 queued=501760 fed=2448000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:34.852551Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 18: top1=Background (id=126, q8=83) top2=Alexandrine Parakeet (id=0, q8=62) cnn_us=6273
+[2026-11-19T09:26:34.863592Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=2650112 queued=534528 fed=2592000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:37.952742Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 19: top1=Background (id=126, q8=229) top2=Paddyfield Pipit (id=82, q8=26) cnn_us=6273
+[2026-11-19T09:26:37.963829Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=2795520 queued=569344 fed=2736000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:41.039834Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 20: top1=Alexandrine Parakeet (id=0, q8=66) top2=Black Kite (id=8, q8=50) cnn_us=6273
+[2026-11-19T09:26:41.051007Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=2936832 queued=595968 fed=2880000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:44.276711Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 21: top1=Background (id=126, q8=227) top2=Paddyfield Pipit (id=82, q8=26) cnn_us=6273
+[2026-11-19T09:26:44.288054Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=3082240 queued=626688 fed=3024000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:47.468175Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 22: top1=Black Redstart (id=9, q8=184) top2=Common Sandpiper (id=26, q8=76) cnn_us=6273
+[2026-11-19T09:26:47.479155Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=3227648 queued=655360 fed=3168000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:50.670573Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 23: top1=Background (id=126, q8=213) top2=Paddyfield Pipit (id=82, q8=25) cnn_us=6273
+[2026-11-19T09:26:50.681708Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=3375104 queued=686080 fed=3312000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:53.810359Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 24: top1=Black-winged Kite (id=11, q8=55) top2=Black-crowned Night-Heron (id=10, q8=44) cnn_us=6273
+[2026-11-19T09:26:53.820553Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=3518464 queued=714752 fed=3456000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:26:56.987540Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 25: top1=Background (id=126, q8=226) top2=Paddyfield Pipit (id=82, q8=26) cnn_us=6273
+[2026-11-19T09:26:56.998824Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=3661824 queued=741376 fed=3600000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:00.191098Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 26: top1=Gray Heron (id=42, q8=118) top2=Background (id=126, q8=58) cnn_us=6273
+[2026-11-19T09:27:00.202277Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=3809280 queued=770048 fed=3744000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:03.423864Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 27: top1=Background (id=126, q8=181) top2=Black-winged Kite (id=11, q8=45) cnn_us=6277
+[2026-11-19T09:27:03.435068Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=3956736 queued=800768 fed=3888000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:06.571669Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 28: top1=Background (id=126, q8=215) top2=Alexandrine Parakeet (id=0, q8=26) cnn_us=6273
+[2026-11-19T09:27:06.582753Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=4100096 queued=829440 fed=4032000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:09.724801Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 29: top1=Background (id=126, q8=232) top2=Black-winged Kite (id=11, q8=26) cnn_us=6273
+[2026-11-19T09:27:09.736197Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=4247552 queued=858112 fed=4176000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:12.863502Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 30: top1=Background (id=126, q8=138) top2=Black-winged Kite (id=11, q8=41) cnn_us=6272
+[2026-11-19T09:27:12.874417Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=4395008 queued=890880 fed=4320000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:15.975730Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 31: top1=Black-winged Kite (id=11, q8=68) top2=Blue-cheeked Bee-eater (id=13, q8=50) cnn_us=6273
+[2026-11-19T09:27:15.986881Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=4540416 queued=925696 fed=4464000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:19.093530Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 32: top1=Alexandrine Parakeet (id=0, q8=65) top2=Yellow-browed Bulbul (id=120, q8=61) cnn_us=6272
+[2026-11-19T09:27:19.104435Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=4681728 queued=952320 fed=4608000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:22.324074Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 33: top1=Background (id=126, q8=86) top2=Blue-tailed Bee-eater (id=14, q8=75) cnn_us=6273
+[2026-11-19T09:27:22.335408Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=4827136 queued=983040 fed=4752000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:25.516716Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 34: top1=Background (id=126, q8=204) top2=Paddyfield Pipit (id=82, q8=30) cnn_us=6273
+[2026-11-19T09:27:25.527867Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=4972544 queued=1011712 fed=4896000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:28.701111Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 35: top1=Background (id=126, q8=98) top2=Yellow-eyed Babbler (id=122, q8=51) cnn_us=6273
+[2026-11-19T09:27:28.712496Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=5117952 queued=1038336 fed=5040000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:31.885341Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 36: top1=Black-winged Kite (id=11, q8=88) top2=Gray Heron (id=42, q8=81) cnn_us=6273
+[2026-11-19T09:27:31.896509Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=5261312 queued=1067008 fed=5184000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:35.086958Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 37: top1=Brahminy Kite (id=16, q8=126) top2=Little Grebe (id=69, q8=71) cnn_us=6273
+[2026-11-19T09:27:35.098295Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=5410816 queued=1097728 fed=5328000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:38.244421Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 38: top1=Asian Fairy-bluebird (id=3, q8=153) top2=Black-winged Kite (id=11, q8=32) cnn_us=6273
+[2026-11-19T09:27:38.255219Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=5554176 queued=1126400 fed=5472000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:41.460464Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 39: top1=Background (id=126, q8=229) top2=Ashy Prinia (id=2, q8=41) cnn_us=6273
+[2026-11-19T09:27:41.471618Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=5701632 queued=1155072 fed=5616000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:44.651450Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 40: top1=Background (id=126, q8=209) top2=Eurasian Hoopoe (id=36, q8=69) cnn_us=6273
+[2026-11-19T09:27:44.663556Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=5844992 queued=1185792 fed=5760000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:47.817992Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 41: top1=Eurasian Hoopoe (id=36, q8=115) top2=Laughing Dove (id=66, q8=100) cnn_us=6273
+[2026-11-19T09:27:47.829123Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=5992448 queued=1214464 fed=5904000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:50.960536Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 42: top1=Brown-headed Barbet (id=19, q8=202) top2=Background (id=126, q8=59) cnn_us=6279
+[2026-11-19T09:27:50.971355Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=6139904 queued=1247232 fed=6048000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:54.065444Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 43: top1=Brown-headed Barbet (id=19, q8=219) top2=Coppersmith Barbet (id=29, q8=59) cnn_us=6273
+[2026-11-19T09:27:54.076851Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=6285312 queued=1282048 fed=6192000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:27:57.152622Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 44: top1=Citrine Wagtail (id=20, q8=95) top2=Western Yellow Wagtail (id=110, q8=83) cnn_us=6275
+[2026-11-19T09:27:57.163707Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=6426624 queued=1308672 fed=6336000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:00.379403Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 45: top1=Citrine Wagtail (id=20, q8=101) top2=White Wagtail (id=111, q8=77) cnn_us=6273
+[2026-11-19T09:28:00.390683Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=6572032 queued=1339392 fed=6480000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:03.572118Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 46: top1=Gray Heron (id=42, q8=86) top2=Background (id=126, q8=74) cnn_us=6278
+[2026-11-19T09:28:03.583179Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=6719488 queued=1370112 fed=6624000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:06.689675Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 47: top1=Clamorous Reed Warbler (id=21, q8=166) top2=Brahminy Kite (id=16, q8=65) cnn_us=6273
+[2026-11-19T09:28:06.700492Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=6862848 queued=1396736 fed=6768000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:09.869190Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 48: top1=Background (id=126, q8=237) top2=Alexandrine Parakeet (id=0, q8=26) cnn_us=6273
+[2026-11-19T09:28:09.880278Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=7008256 queued=1427456 fed=6912000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:13.046097Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 49: top1=Common Chiffchaff (id=22, q8=244) top2=Ashy Prinia (id=2, q8=80) cnn_us=6273
+[2026-11-19T09:28:13.057441Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=7151616 queued=1454080 fed=7056000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:16.260513Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 50: top1=Background (id=126, q8=135) top2=Paddyfield Pipit (id=82, q8=32) cnn_us=6273
+[2026-11-19T09:28:16.271604Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=7301120 queued=1484800 fed=7200000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:19.400023Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 51: top1=Common hawk-cuckoo (id=23, q8=78) top2=White-throated Kingfisher (id=116, q8=67) cnn_us=6273
+[2026-11-19T09:28:19.411197Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=7446528 queued=1513472 fed=7344000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:22.591452Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 52: top1=Little Swift (id=72, q8=64) top2=Black-winged Kite (id=11, q8=62) cnn_us=6273
+[2026-11-19T09:28:22.701991Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=7589888 queued=1544192 fed=7488000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:25.747102Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 53: top1=Common Kingfisher (id=24, q8=142) top2=Little Swift (id=72, q8=48) cnn_us=6273
+[2026-11-19T09:28:25.758186Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=7737344 queued=1572864 fed=7632000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:28.908918Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 54: top1=Background (id=126, q8=218) top2=Crested Serpent-Eagle (id=31, q8=28) cnn_us=6273
+[2026-11-19T09:28:28.920004Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=7884800 queued=1607680 fed=7776000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:32.047477Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 55: top1=Alexandrine Parakeet (id=0, q8=78) top2=Marsh Sandpiper (id=80, q8=66) cnn_us=6273
+[2026-11-19T09:28:32.058599Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=8028160 queued=1636352 fed=7920000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:35.237595Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 56: top1=Common Redshank (id=25, q8=90) top2=Marsh Sandpiper (id=80, q8=81) cnn_us=6272
+[2026-11-19T09:28:35.248749Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=8171520 queued=1665024 fed=8064000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:38.467452Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 57: top1=Background (id=126, q8=239) top2=Paddyfield Pipit (id=82, q8=31) cnn_us=6273
+[2026-11-19T09:28:38.478523Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=8316928 queued=1695744 fed=8208000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:41.659939Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 58: top1=Common Sandpiper (id=26, q8=166) top2=Little Swift (id=72, q8=89) cnn_us=6273
+[2026-11-19T09:28:41.670915Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=8462336 queued=1724416 fed=8352000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:44.847243Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 59: top1=Background (id=126, q8=215) top2=Black-winged Kite (id=11, q8=25) cnn_us=6273
+[2026-11-19T09:28:44.858358Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=8607744 queued=1751040 fed=8496000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:48.034416Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 60: top1=Background (id=126, q8=238) top2=Eurasian Hoopoe (id=36, q8=27) cnn_us=6272
+[2026-11-19T09:28:48.045570Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=8753152 queued=1779712 fed=8640000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:51.221804Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 61: top1=Background (id=126, q8=223) top2=Alexandrine Parakeet (id=0, q8=26) cnn_us=6273
+[2026-11-19T09:28:51.232951Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=8896512 queued=1808384 fed=8784000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:54.425602Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 62: top1=Long-billed Pipit (id=73, q8=197) top2=Pied Bushchat (id=86, q8=79) cnn_us=6273
+[2026-11-19T09:28:54.436495Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=9043968 queued=1837056 fed=8928000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:28:57.645176Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 63: top1=Background (id=126, q8=248) top2=Long-billed Pipit (id=73, q8=21) cnn_us=6273
+[2026-11-19T09:28:57.656303Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=9191424 queued=1865728 fed=9072000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:00.837390Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 64: top1=White-breasted Waterhen (id=113, q8=142) top2=Eurasian Coot (id=35, q8=67) cnn_us=6273
+[2026-11-19T09:29:00.848500Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=9336832 queued=1898496 fed=9216000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:03.963995Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 65: top1=Background (id=126, q8=243) top2=Coppersmith Barbet (id=29, q8=23) cnn_us=6273
+[2026-11-19T09:29:03.975379Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=9482240 queued=1927168 fed=9360000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:07.106740Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 66: top1=Yellow-eyed Babbler (id=122, q8=91) top2=Crested Lark (id=30, q8=79) cnn_us=6273
+[2026-11-19T09:29:07.117894Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=9629696 queued=1959936 fed=9504000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:10.207460Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 67: top1=Background (id=126, q8=248) top2=Alexandrine Parakeet (id=0, q8=25) cnn_us=6273
+[2026-11-19T09:29:10.218405Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=9775104 queued=1994752 fed=9648000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:13.298567Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 68: top1=Malabar Whistling-Thrush (id=79, q8=142) top2=Common hawk-cuckoo (id=23, q8=92) cnn_us=6273
+[2026-11-19T09:29:13.309834Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=9916416 queued=2021376 fed=9792000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:16.537755Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 69: top1=Crested Serpent-Eagle (id=31, q8=99) top2=Background (id=126, q8=52) cnn_us=6272
+[2026-11-19T09:29:16.549912Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=10063872 queued=2052096 fed=9936000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:19.724753Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 70: top1=Crimson-backed Sunbird (id=32, q8=194) top2=Yellow-browed Warbler (id=121, q8=74) cnn_us=6273
+[2026-11-19T09:29:19.736416Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=10207232 queued=2082816 fed=10080000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:22.916635Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 71: top1=Yellow-browed Warbler (id=121, q8=90) top2=Common Kingfisher (id=24, q8=56) cnn_us=6273
+[2026-11-19T09:29:22.927983Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=10352640 queued=2109440 fed=10224000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:26.098912Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 72: top1=Background (id=126, q8=136) top2=Black-winged Kite (id=11, q8=44) cnn_us=6273
+[2026-11-19T09:29:26.110225Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=10498048 queued=2140160 fed=10368000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:29.288609Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 73: top1=Background (id=126, q8=215) top2=Black-winged Kite (id=11, q8=25) cnn_us=6273
+[2026-11-19T09:29:29.299399Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=10645504 queued=2168832 fed=10512000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:32.436183Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 74: top1=Eurasian Hoopoe (id=36, q8=129) top2=Eurasian Collared-Dove (id=34, q8=68) cnn_us=6273
+[2026-11-19T09:29:32.447420Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=10788864 queued=2199552 fed=10656000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:35.659761Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 75: top1=Background (id=126, q8=236) top2=Eurasian Hoopoe (id=36, q8=27) cnn_us=6273
+[2026-11-19T09:29:35.670951Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=10936320 queued=2228224 fed=10800000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:38.856220Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 76: top1=Eurasian Coot (id=35, q8=65) top2=Eurasian Moorhen (id=37, q8=49) cnn_us=6273
+[2026-11-19T09:29:38.867260Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=11079680 queued=2258944 fed=10944000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:42.022840Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 77: top1=Background (id=126, q8=209) top2=Black-winged Kite (id=11, q8=33) cnn_us=6273
+[2026-11-19T09:29:42.034077Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=11229184 queued=2291712 fed=11088000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:45.128009Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 78: top1=Background (id=126, q8=103) top2=Eurasian Hoopoe (id=36, q8=55) cnn_us=6273
+[2026-11-19T09:29:45.139125Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=11372544 queued=2320384 fed=11232000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:48.316164Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 79: top1=Background (id=126, q8=242) top2=Eurasian Hoopoe (id=36, q8=27) cnn_us=6273
+[2026-11-19T09:29:48.328422Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=11520000 queued=2355200 fed=11376000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:51.404320Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 80: top1=Background (id=126, q8=140) top2=Alexandrine Parakeet (id=0, q8=39) cnn_us=6272
+[2026-11-19T09:29:51.415304Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=11661312 queued=2381824 fed=11520000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:54.629608Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 81: top1=Background (id=126, q8=243) top2=Alexandrine Parakeet (id=0, q8=24) cnn_us=6273
+[2026-11-19T09:29:54.640999Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=11806720 queued=2412544 fed=11664000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:29:57.838034Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 82: top1=Red-wattled Lapwing (id=93, q8=61) top2=Black Kite (id=8, q8=59) cnn_us=6273
+[2026-11-19T09:29:57.849121Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=11952128 queued=2441216 fed=11808000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:30:01.016389Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 83: top1=Black-winged Kite (id=11, q8=65) top2=Alexandrine Parakeet (id=0, q8=62) cnn_us=6273
+[2026-11-19T09:30:01.027415Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=12097536 queued=2467840 fed=11952000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:30:04.200445Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 84: top1=Brahminy Kite (id=16, q8=67) top2=White-throated Kingfisher (id=116, q8=45) cnn_us=6273
+[2026-11-19T09:30:04.211571Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=12242944 queued=2498560 fed=12096000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:30:07.377569Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 85: top1=European Roller (id=39, q8=67) top2=Alexandrine Parakeet (id=0, q8=63) cnn_us=6273
+[2026-11-19T09:30:07.388896Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=12386304 queued=2525184 fed=12240000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:30:10.585249Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 86: top1=Background (id=126, q8=136) top2=Black-winged Kite (id=11, q8=40) cnn_us=6273
+[2026-11-19T09:30:10.596324Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=12533760 queued=2553856 fed=12384000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:30:13.806909Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 87: top1=Puff-throated Babbler (id=88, q8=49) top2=Brahminy Kite (id=16, q8=44) cnn_us=6273
+[2026-11-19T09:30:13.818272Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=12683264 queued=2584576 fed=12528000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:30:16.963815Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 88: top1=Ashy Drongo (id=1, q8=82) top2=Scaly-breasted Munia (id=101, q8=48) cnn_us=6273
+[2026-11-19T09:30:16.974872Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=12824576 queued=2615296 fed=12672000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:30:20.116835Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 89: top1=Red-rumped Swallow (id=91, q8=52) top2=Wire-tailed Swallow (id=117, q8=47) cnn_us=6273
+[2026-11-19T09:30:20.128140Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=12972032 queued=2643968 fed=12816000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:30:23.256347Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 90: top1=Background (id=126, q8=208) top2=Black-winged Kite (id=11, q8=45) cnn_us=6272
+[2026-11-19T09:30:23.267477Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=13119488 queued=2676736 fed=12960000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:30:26.370192Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 91: top1=Background (id=126, q8=242) top2=Common Sandpiper (id=26, q8=28) cnn_us=6272
+[2026-11-19T09:30:26.381250Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=13266944 queued=2711552 fed=13104000 lost=0 high_water=16/18 blocks
+[2026-11-19T09:30:29.453259Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 92: top1=Gray Wagtail (id=43, q8=99) top2=Vernal Hanging-Parrot (id=109, q8=50) cnn_us=6273
+[2026-11-19T09:30:29.464524Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=13406208 queued=2740224 fed=13248000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:30:32.676462Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 93: top1=Gray Wagtail (id=43, q8=215) top2=Pale-billed Flowerpecker (id=84, q8=73) cnn_us=6273
+[2026-11-19T09:30:32.687709Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=13551616 queued=2770944 fed=13392000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:30:35.860602Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 94: top1=Background (id=126, q8=151) top2=Crested Lark (id=30, q8=48) cnn_us=6273
+[2026-11-19T09:30:35.871722Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=13697024 queued=2797568 fed=13536000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:30:39.077572Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 95: top1=Background (id=126, q8=113) top2=Black-winged Kite (id=11, q8=47) cnn_us=6273
+[2026-11-19T09:30:39.088527Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=13842432 queued=2826240 fed=13680000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:30:42.278535Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 96: top1=Spotted dove (id=104, q8=117) top2=Eurasian Collared-Dove (id=34, q8=96) cnn_us=6273
+[2026-11-19T09:30:42.289630Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=13989888 queued=2856960 fed=13824000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:30:45.464844Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 97: top1=Background (id=126, q8=80) top2=Eurasian Hoopoe (id=36, q8=50) cnn_us=6273
+[2026-11-19T09:30:45.475827Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=14131200 queued=2885632 fed=13968000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:30:48.666156Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 98: top1=Background (id=126, q8=242) top2=Rock Pigeon (id=96, q8=26) cnn_us=6273
+[2026-11-19T09:30:48.677474Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=14278656 queued=2912256 fed=14112000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:30:51.884568Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 99: top1=Black-crowned Night-Heron (id=10, q8=191) top2=Jerdon's Nightjar (id=62, q8=48) cnn_us=6273
+[2026-11-19T09:30:51.895914Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=14426112 queued=2942976 fed=14256000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:30:55.087954Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 100: top1=Background (id=126, q8=111) top2=Greater Coucal (id=46, q8=53) cnn_us=6272
+[2026-11-19T09:30:55.099001Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=14571520 queued=2973696 fed=14400000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:30:58.203443Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 101: top1=Green Bee-eater (id=47, q8=87) top2=Background (id=126, q8=82) cnn_us=6273
+[2026-11-19T09:30:58.215486Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=14716928 queued=3004416 fed=14544000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:01.351058Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 102: top1=Green Sandpiper (id=48, q8=137) top2=Common Sandpiper (id=26, q8=59) cnn_us=6272
+[2026-11-19T09:31:01.362565Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=14864384 queued=3037184 fed=14688000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:04.456139Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 103: top1=Green Sandpiper (id=48, q8=198) top2=Yellow-eyed Babbler (id=122, q8=85) cnn_us=6273
+[2026-11-19T09:31:04.467268Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=15009792 queued=3072000 fed=14832000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:07.546228Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 104: top1=Background (id=126, q8=162) top2=Black-winged Kite (id=11, q8=29) cnn_us=6272
+[2026-11-19T09:31:07.557302Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=15151104 queued=3098624 fed=14976000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:10.783993Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 105: top1=Background (id=126, q8=200) top2=Painted Stork (id=83, q8=28) cnn_us=6273
+[2026-11-19T09:31:10.795281Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=15296512 queued=3129344 fed=15120000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:13.975457Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 106: top1=Western Yellow Wagtail (id=110, q8=83) top2=Background (id=126, q8=66) cnn_us=6273
+[2026-11-19T09:31:13.987543Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=15441920 queued=3158016 fed=15264000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:17.165920Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 107: top1=Indian Robin (id=56, q8=87) top2=Western Yellow Wagtail (id=110, q8=73) cnn_us=6273
+[2026-11-19T09:31:17.177192Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=15587328 queued=3184640 fed=15408000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:20.352376Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 108: top1=House Crow (id=51, q8=170) top2=Black-winged Kite (id=11, q8=60) cnn_us=6273
+[2026-11-19T09:31:20.363476Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=15732736 queued=3215360 fed=15552000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:23.534413Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 109: top1=House Crow (id=51, q8=142) top2=Crested Serpent-Eagle (id=31, q8=51) cnn_us=6273
+[2026-11-19T09:31:23.545691Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=15876096 queued=3241984 fed=15696000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:26.742174Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 110: top1=Red-rumped Swallow (id=91, q8=76) top2=Ashy Drongo (id=1, q8=43) cnn_us=6273
+[2026-11-19T09:31:26.753290Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=16025600 queued=3272704 fed=15840000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:29.894157Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 111: top1=Long-billed Pipit (id=73, q8=124) top2=Wood Sandpiper (id=118, q8=51) cnn_us=6273
+[2026-11-19T09:31:29.905246Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=16171008 queued=3301376 fed=15984000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:33.081133Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 112: top1=Alexandrine Parakeet (id=0, q8=50) top2=Black-winged Kite (id=11, q8=49) cnn_us=6273
+[2026-11-19T09:31:33.092427Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=16314368 queued=3332096 fed=16128000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:36.233940Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 113: top1=Background (id=126, q8=78) top2=Indian Gray Hornbill (id=53, q8=50) cnn_us=6273
+[2026-11-19T09:31:36.245339Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=16461824 queued=3360768 fed=16272000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:39.386789Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 114: top1=Indian Nightjar (id=54, q8=120) top2=Blue-cheeked Bee-eater (id=13, q8=70) cnn_us=6273
+[2026-11-19T09:31:39.398120Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=16609280 queued=3393536 fed=16416000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:42.491853Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 115: top1=Indian Nightjar (id=54, q8=110) top2=Common hawk-cuckoo (id=23, q8=108) cnn_us=6273
+[2026-11-19T09:31:42.503079Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=16754688 queued=3428352 fed=16560000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:45.573282Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 116: top1=Background (id=126, q8=88) top2=Black-winged Kite (id=11, q8=48) cnn_us=6273
+[2026-11-19T09:31:45.584549Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=16896000 queued=3454976 fed=16704000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:48.798742Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 117: top1=Background (id=126, q8=59) top2=Gray Heron (id=42, q8=58) cnn_us=6275
+[2026-11-19T09:31:48.809778Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=17041408 queued=3485696 fed=16848000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:51.985004Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 118: top1=Background (id=126, q8=66) top2=Rock Pigeon (id=96, q8=29) cnn_us=6273
+[2026-11-19T09:31:51.996097Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=17186816 queued=3514368 fed=16992000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:55.182492Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 119: top1=White Wagtail (id=111, q8=95) top2=Western Yellow Wagtail (id=110, q8=77) cnn_us=6273
+[2026-11-19T09:31:55.193421Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=17334272 queued=3545088 fed=17136000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:31:58.297684Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 120: top1=Background (id=126, q8=246) top2=Greater Coucal (id=46, q8=24) cnn_us=6273
+[2026-11-19T09:31:58.308810Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=17477632 queued=3573760 fed=17280000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:01.473022Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 121: top1=Background (id=126, q8=137) top2=Alexandrine Parakeet (id=0, q8=36) cnn_us=6273
+[2026-11-19T09:32:01.484349Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=17620992 queued=3600384 fed=17424000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:04.679431Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 122: top1=Background (id=126, q8=249) top2=Paddyfield Pipit (id=82, q8=25) cnn_us=6273
+[2026-11-19T09:32:04.690475Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=17768448 queued=3629056 fed=17568000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:07.906250Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 123: top1=Background (id=126, q8=244) top2=Paddyfield Pipit (id=82, q8=22) cnn_us=6273
+[2026-11-19T09:32:07.917758Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=17915904 queued=3659776 fed=17712000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:11.048447Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 124: top1=Barn Swallow (id=5, q8=51) top2=Little Swift (id=72, q8=41) cnn_us=6273
+[2026-11-19T09:32:11.059147Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=18059264 queued=3688448 fed=17856000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:14.202114Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 125: top1=White Wagtail (id=111, q8=65) top2=Citrine Wagtail (id=20, q8=55) cnn_us=6273
+[2026-11-19T09:32:14.213380Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=18206720 queued=3717120 fed=18000000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:17.350898Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 126: top1=Indian White-eye (id=60, q8=109) top2=Crested Lark (id=30, q8=78) cnn_us=6272
+[2026-11-19T09:32:17.362357Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=18354176 queued=3749888 fed=18144000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:20.458210Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 127: top1=Indian White-eye (id=60, q8=187) top2=Crested Lark (id=30, q8=101) cnn_us=6273
+[2026-11-19T09:32:20.469452Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=18499584 queued=3784704 fed=18288000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:23.572824Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 128: top1=Jacobin Cuckoo (id=61, q8=109) top2=Black-winged Kite (id=11, q8=55) cnn_us=6272
+[2026-11-19T09:32:23.584039Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=18640896 queued=3811328 fed=18432000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:26.802309Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 129: top1=Crested Serpent-Eagle (id=31, q8=55) top2=Jacobin Cuckoo (id=61, q8=51) cnn_us=6273
+[2026-11-19T09:32:26.813488Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=18786304 queued=3842048 fed=18576000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:29.996730Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 130: top1=Jerdon's Nightjar (id=62, q8=177) top2=Lesser Coucal (id=67, q8=37) cnn_us=6273
+[2026-11-19T09:32:30.008758Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=18931712 queued=3870720 fed=18720000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:33.181032Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 131: top1=Jerdon's Nightjar (id=62, q8=233) top2=Lesser Coucal (id=67, q8=44) cnn_us=6273
+[2026-11-19T09:32:33.192036Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=19077120 queued=3897344 fed=18864000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:36.361167Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 132: top1=Black-winged Kite (id=11, q8=76) top2=Alexandrine Parakeet (id=0, q8=71) cnn_us=6273
+[2026-11-19T09:32:36.372219Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=19222528 queued=3928064 fed=19008000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:39.543540Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 133: top1=Crested Serpent-Eagle (id=31, q8=97) top2=Jungle Babbler (id=63, q8=59) cnn_us=6273
+[2026-11-19T09:32:39.555435Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=19369984 queued=3958784 fed=19152000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:42.699333Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 134: top1=Eurasian Coot (id=35, q8=60) top2=Indian Peafowl (id=55, q8=56) cnn_us=6273
+[2026-11-19T09:32:42.711412Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=19513344 queued=3987456 fed=19296000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:45.915133Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 135: top1=Little Egret (id=68, q8=172) top2=Large-billed Crow (id=64, q8=84) cnn_us=6273
+[2026-11-19T09:32:45.926321Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=19660800 queued=4016128 fed=19440000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:49.109467Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 136: top1=Background (id=126, q8=154) top2=Paddyfield Pipit (id=82, q8=36) cnn_us=6273
+[2026-11-19T09:32:49.120609Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=19804160 queued=4046848 fed=19584000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:52.273505Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 137: top1=Common Kingfisher (id=24, q8=61) top2=Wire-tailed Swallow (id=117, q8=37) cnn_us=6273
+[2026-11-19T09:32:52.284711Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=19953664 queued=4077568 fed=19728000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:55.427462Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 138: top1=Eurasian Hoopoe (id=36, q8=137) top2=Eurasian Collared-Dove (id=34, q8=84) cnn_us=6272
+[2026-11-19T09:32:55.438452Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=20099072 queued=4110336 fed=19872000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:32:58.534621Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 139: top1=Laughing Dove (id=66, q8=138) top2=Spotted dove (id=104, q8=73) cnn_us=6273
+[2026-11-19T09:32:58.545801Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=20244480 queued=4145152 fed=20016000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:01.618273Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 140: top1=Background (id=126, q8=69) top2=Jerdon's Nightjar (id=62, q8=55) cnn_us=6273
+[2026-11-19T09:33:01.630111Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=20385792 queued=4171776 fed=20160000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:04.845630Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 141: top1=Jerdon's Nightjar (id=62, q8=149) top2=Bronze-winged Jacana (id=17, q8=45) cnn_us=6273
+[2026-11-19T09:33:04.856920Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=20531200 queued=4202496 fed=20304000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:08.038986Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 142: top1=Little Egret (id=68, q8=181) top2=Black-winged Kite (id=11, q8=35) cnn_us=6273
+[2026-11-19T09:33:08.050113Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=20678656 queued=4233216 fed=20448000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:11.156513Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 143: top1=Background (id=126, q8=78) top2=Alexandrine Parakeet (id=0, q8=41) cnn_us=6273
+[2026-11-19T09:33:11.167660Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=20822016 queued=4259840 fed=20592000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:14.335927Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 144: top1=Background (id=126, q8=231) top2=Paddyfield Pipit (id=82, q8=29) cnn_us=6273
+[2026-11-19T09:33:14.347178Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=20967424 queued=4290560 fed=20736000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:17.519028Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 145: top1=Background (id=126, q8=228) top2=Black-winged Kite (id=11, q8=28) cnn_us=6273
+[2026-11-19T09:33:17.530056Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=21110784 queued=4317184 fed=20880000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:20.732615Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 146: top1=Jungle Babbler (id=63, q8=87) top2=Black Francolin (id=7, q8=58) cnn_us=6273
+[2026-11-19T09:33:20.743708Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=21260288 queued=4347904 fed=21024000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:23.868770Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 147: top1=Red-rumped Swallow (id=91, q8=77) top2=Barn Swallow (id=5, q8=74) cnn_us=6273
+[2026-11-19T09:33:23.880630Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=21405696 queued=4376576 fed=21168000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:27.061771Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 148: top1=Green Sandpiper (id=48, q8=110) top2=Background (id=126, q8=67) cnn_us=6273
+[2026-11-19T09:33:27.073059Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=21549056 queued=4407296 fed=21312000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:30.218693Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 149: top1=Little Stint (id=71, q8=200) top2=Verditer Flycatcher (id=108, q8=137) cnn_us=6273
+[2026-11-19T09:33:30.229773Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=21696512 queued=4435968 fed=21456000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:33.371830Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 150: top1=Background (id=126, q8=73) top2=Black-winged Kite (id=11, q8=62) cnn_us=6273
+[2026-11-19T09:33:33.383034Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=21843968 queued=4470784 fed=21600000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:36.483978Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 151: top1=Little Swift (id=72, q8=184) top2=Common Sandpiper (id=26, q8=75) cnn_us=6273
+[2026-11-19T09:33:36.494909Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=21987328 queued=4499456 fed=21744000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:39.669950Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 152: top1=Background (id=126, q8=223) top2=Greater Coucal (id=46, q8=26) cnn_us=6272
+[2026-11-19T09:33:39.681092Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=22130688 queued=4528128 fed=21888000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:42.902874Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 153: top1=Long-billed Pipit (id=73, q8=126) top2=Wood Sandpiper (id=118, q8=44) cnn_us=6273
+[2026-11-19T09:33:42.913903Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=22276096 queued=4558848 fed=22032000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:46.091076Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 154: top1=Background (id=126, q8=240) top2=Black-winged Kite (id=11, q8=33) cnn_us=6273
+[2026-11-19T09:33:46.102393Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=22421504 queued=4587520 fed=22176000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:49.279364Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 155: top1=Coppersmith Barbet (id=29, q8=192) top2=Laughing Dove (id=66, q8=105) cnn_us=6273
+[2026-11-19T09:33:49.291240Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=22566912 queued=4614144 fed=22320000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:52.469895Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 156: top1=Background (id=126, q8=198) top2=Eurasian Hoopoe (id=36, q8=40) cnn_us=6272
+[2026-11-19T09:33:52.481251Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=22712320 queued=4642816 fed=22464000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:55.658956Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 157: top1=Malabar Gray Hornbill (id=75, q8=90) top2=Crimson-backed Sunbird (id=32, q8=57) cnn_us=6273
+[2026-11-19T09:33:55.670279Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=22855680 queued=4671488 fed=22608000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:33:58.860536Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 158: top1=Background (id=126, q8=161) top2=Ruddy Shelduck (id=98, q8=54) cnn_us=6273
+[2026-11-19T09:33:58.871608Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=23003136 queued=4700160 fed=22752000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:02.078419Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 159: top1=Background (id=126, q8=218) top2=Black-winged Kite (id=11, q8=38) cnn_us=6273
+[2026-11-19T09:34:02.089466Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=23150592 queued=4728832 fed=22896000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:05.276792Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 160: top1=Background (id=126, q8=241) top2=Black-winged Kite (id=11, q8=25) cnn_us=6273
+[2026-11-19T09:34:05.287981Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=23296000 queued=4761600 fed=23040000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:08.401512Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 161: top1=Black Redstart (id=9, q8=82) top2=Green Sandpiper (id=48, q8=75) cnn_us=6273
+[2026-11-19T09:34:08.412652Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=23441408 queued=4790272 fed=23184000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:11.544854Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 162: top1=Barn Swallow (id=5, q8=157) top2=Green Sandpiper (id=48, q8=70) cnn_us=6272
+[2026-11-19T09:34:11.555784Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=23588864 queued=4823040 fed=23328000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:14.649224Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 163: top1=Black-crowned Night-Heron (id=10, q8=96) top2=Background (id=126, q8=92) cnn_us=6273
+[2026-11-19T09:34:14.660166Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=23734272 queued=4857856 fed=23472000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:17.741319Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 164: top1=Malabar Trogon (id=78, q8=138) top2=Large-billed Crow (id=64, q8=64) cnn_us=6273
+[2026-11-19T09:34:17.752698Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=23875584 queued=4884480 fed=23616000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:20.983483Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 165: top1=Background (id=126, q8=245) top2=Common Sandpiper (id=26, q8=26) cnn_us=6272
+[2026-11-19T09:34:20.994928Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=24023040 queued=4915200 fed=23760000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:24.167279Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 166: top1=Background (id=126, q8=127) top2=Malabar Whistling-Thrush (id=79, q8=49) cnn_us=6273
+[2026-11-19T09:34:24.178301Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=24166400 queued=4945920 fed=23904000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:27.361445Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 167: top1=Background (id=126, q8=81) top2=Malabar Whistling-Thrush (id=79, q8=71) cnn_us=6273
+[2026-11-19T09:34:27.372568Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=24311808 queued=4972544 fed=24048000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:30.545822Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 168: top1=Blue-cheeked Bee-eater (id=13, q8=68) top2=Background (id=126, q8=39) cnn_us=6273
+[2026-11-19T09:34:30.556972Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=24457216 queued=5003264 fed=24192000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:33.736320Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 169: top1=Background (id=126, q8=179) top2=Black-winged Kite (id=11, q8=36) cnn_us=6273
+[2026-11-19T09:34:33.747453Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=24604672 queued=5031936 fed=24336000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:36.883402Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 170: top1=Background (id=126, q8=194) top2=Black-winged Kite (id=11, q8=26) cnn_us=6273
+[2026-11-19T09:34:36.894351Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=24748032 queued=5062656 fed=24480000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:40.108392Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 171: top1=Background (id=126, q8=243) top2=Black-winged Kite (id=11, q8=24) cnn_us=6273
+[2026-11-19T09:34:40.119381Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=24895488 queued=5091328 fed=24624000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:43.295520Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 172: top1=Vernal Hanging-Parrot (id=109, q8=72) top2=Paddyfield Pipit (id=82, q8=57) cnn_us=6273
+[2026-11-19T09:34:43.306440Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=25038848 queued=5122048 fed=24768000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:46.462476Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 173: top1=Vernal Hanging-Parrot (id=109, q8=133) top2=Paddyfield Pipit (id=82, q8=62) cnn_us=6273
+[2026-11-19T09:34:46.474439Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=25188352 queued=5154816 fed=24912000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:49.568987Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 174: top1=Black-winged Kite (id=11, q8=102) top2=Gray Heron (id=42, q8=90) cnn_us=6273
+[2026-11-19T09:34:49.580073Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=25331712 queued=5183488 fed=25056000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:52.747939Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 175: top1=Painted Stork (id=83, q8=58) top2=Black-winged Kite (id=11, q8=52) cnn_us=6273
+[2026-11-19T09:34:52.760211Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=25479168 queued=5218304 fed=25200000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:55.833102Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 176: top1=Ashy Drongo (id=1, q8=45) top2=Indian Silverbill (id=59, q8=42) cnn_us=6272
+[2026-11-19T09:34:55.845432Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=25620480 queued=5244928 fed=25344000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:34:59.061211Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 177: top1=Background (id=126, q8=112) top2=Paddyfield Pipit (id=82, q8=39) cnn_us=6273
+[2026-11-19T09:34:59.072225Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=25765888 queued=5275648 fed=25488000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:02.252460Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 178: top1=Peregrine Falcon (id=85, q8=197) top2=Rufous Woodpecker (id=100, q8=51) cnn_us=6273
+[2026-11-19T09:35:02.263717Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=25911296 queued=5304320 fed=25632000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:05.438050Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 179: top1=Eurasian Moorhen (id=37, q8=66) top2=Little Grebe (id=69, q8=49) cnn_us=6273
+[2026-11-19T09:35:05.449031Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=26056704 queued=5330944 fed=25776000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:08.619569Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 180: top1=Pied Bushchat (id=86, q8=58) top2=Long-billed Pipit (id=73, q8=48) cnn_us=6273
+[2026-11-19T09:35:08.630510Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=26202112 queued=5361664 fed=25920000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:11.794448Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 181: top1=Common Chiffchaff (id=22, q8=60) top2=Pied Bushchat (id=86, q8=54) cnn_us=6273
+[2026-11-19T09:35:11.805662Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=26345472 queued=5388288 fed=26064000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:14.997906Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 182: top1=Background (id=126, q8=238) top2=Common Sandpiper (id=26, q8=32) cnn_us=6273
+[2026-11-19T09:35:15.009210Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=26492928 queued=5416960 fed=26208000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:18.223580Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 183: top1=Background (id=126, q8=182) top2=Lesser Coucal (id=67, q8=25) cnn_us=6274
+[2026-11-19T09:35:18.234741Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=26642432 queued=5447680 fed=26352000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:21.373475Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 184: top1=Background (id=126, q8=55) top2=Black-winged Kite (id=11, q8=52) cnn_us=6273
+[2026-11-19T09:35:21.385498Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=26783744 queued=5478400 fed=26496000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:24.528067Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 185: top1=Crested Serpent-Eagle (id=31, q8=130) top2=Black-winged Kite (id=11, q8=58) cnn_us=6273
+[2026-11-19T09:35:24.539385Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=26931200 queued=5507072 fed=26640000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:27.669810Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 186: top1=Black Redstart (id=9, q8=56) top2=Common Sandpiper (id=26, q8=49) cnn_us=6272
+[2026-11-19T09:35:27.680941Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=27078656 queued=5539840 fed=26784000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:30.787268Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 187: top1=White Wagtail (id=111, q8=56) top2=Purple Sunbird (id=89, q8=50) cnn_us=6272
+[2026-11-19T09:35:30.798490Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=27226112 queued=5574656 fed=26928000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:33.864311Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 188: top1=Background (id=126, q8=71) top2=Yellow-browed Warbler (id=121, q8=47) cnn_us=6273
+[2026-11-19T09:35:33.876333Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=27365376 queued=5603328 fed=27072000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:37.090163Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 189: top1=Background (id=126, q8=150) top2=Common Kingfisher (id=24, q8=33) cnn_us=6273
+[2026-11-19T09:35:37.102490Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=27510784 queued=5634048 fed=27216000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:40.279357Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 190: top1=Background (id=126, q8=242) top2=Alexandrine Parakeet (id=0, q8=22) cnn_us=6273
+[2026-11-19T09:35:40.290555Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=27656192 queued=5662720 fed=27360000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:43.463561Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 191: top1=Background (id=126, q8=116) top2=Black-winged Kite (id=11, q8=42) cnn_us=6273
+[2026-11-19T09:35:43.474725Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=27801600 queued=5689344 fed=27504000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:46.662047Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 192: top1=Red-whiskered Bulbul (id=94, q8=175) top2=Black-winged Kite (id=11, q8=84) cnn_us=6273
+[2026-11-19T09:35:46.672978Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=27949056 queued=5720064 fed=27648000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:49.848040Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 193: top1=Red-whiskered Bulbul (id=94, q8=150) top2=Blue-cheeked Bee-eater (id=13, q8=91) cnn_us=6273
+[2026-11-19T09:35:49.859109Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=28090368 queued=5748736 fed=27792000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:53.054418Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 194: top1=Background (id=126, q8=125) top2=Alexandrine Parakeet (id=0, q8=33) cnn_us=6273
+[2026-11-19T09:35:53.065468Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=28237824 queued=5777408 fed=27936000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:56.270829Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 195: top1=Yellow-wattled Lapwing (id=124, q8=154) top2=Red-wattled Lapwing (id=93, q8=118) cnn_us=6273
+[2026-11-19T09:35:56.283239Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=28383232 queued=5806080 fed=28080000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:35:59.476241Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 196: top1=Blue-tailed Bee-eater (id=14, q8=65) top2=Black-winged Kite (id=11, q8=52) cnn_us=6272
+[2026-11-19T09:35:59.487342Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=28530688 queued=5834752 fed=28224000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:02.593367Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 197: top1=Blue-tailed Bee-eater (id=14, q8=200) top2=Clamorous Reed Warbler (id=21, q8=51) cnn_us=6273
+[2026-11-19T09:36:02.604515Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=28676096 queued=5865472 fed=28368000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:05.756378Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 198: top1=Background (id=126, q8=249) top2=Greater Coucal (id=46, q8=29) cnn_us=6273
+[2026-11-19T09:36:05.768326Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=28823552 queued=5898240 fed=28512000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:08.875556Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 199: top1=River Lapwing (id=95, q8=231) top2=Scaly-breasted Munia (id=101, q8=55) cnn_us=6273
+[2026-11-19T09:36:08.886750Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=28966912 queued=5928960 fed=28656000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:12.021338Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 200: top1=Background (id=126, q8=237) top2=Black-winged Kite (id=11, q8=25) cnn_us=6273
+[2026-11-19T09:36:12.032511Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=29110272 queued=5959680 fed=28800000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:15.198323Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 201: top1=Background (id=126, q8=181) top2=Little Grebe (id=69, q8=39) cnn_us=6273
+[2026-11-19T09:36:15.209480Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=29253632 queued=5986304 fed=28944000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:18.401768Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 202: top1=Background (id=126, q8=239) top2=Black-winged Kite (id=11, q8=32) cnn_us=6273
+[2026-11-19T09:36:18.412939Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=29401088 queued=6012928 fed=29088000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:21.634584Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 203: top1=Rose-ringed Parakeet (id=97, q8=82) top2=Green Sandpiper (id=48, q8=54) cnn_us=6273
+[2026-11-19T09:36:21.645621Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=29546496 queued=6043648 fed=29232000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:24.832079Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 204: top1=Background (id=126, q8=152) top2=Black-winged Kite (id=11, q8=30) cnn_us=6273
+[2026-11-19T09:36:24.843211Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=29691904 queued=6072320 fed=29376000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:27.983751Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 205: top1=Ruddy Shelduck (id=98, q8=43) top2=Paddyfield Pipit (id=82, q8=31) cnn_us=6274
+[2026-11-19T09:36:27.994910Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=29839360 queued=6100992 fed=29520000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:31.123508Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 206: top1=Background (id=126, q8=77) top2=Coppersmith Barbet (id=29, q8=37) cnn_us=6272
+[2026-11-19T09:36:31.134504Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=29986816 queued=6133760 fed=29664000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:34.241796Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 207: top1=Black-winged Kite (id=11, q8=73) top2=Gray Heron (id=42, q8=50) cnn_us=6273
+[2026-11-19T09:36:34.252990Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=30132224 queued=6168576 fed=29808000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:37.377479Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 208: top1=Background (id=126, q8=151) top2=Gray Heron (id=42, q8=62) cnn_us=6273
+[2026-11-19T09:36:37.389688Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=30273536 queued=6195200 fed=29952000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:40.601108Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 209: top1=Spotted dove (id=104, q8=115) top2=Rufous Woodpecker (id=100, q8=75) cnn_us=6273
+[2026-11-19T09:36:40.612290Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=30418944 queued=6225920 fed=30096000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:43.788457Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 210: top1=Brahminy Kite (id=16, q8=89) top2=Spotted dove (id=104, q8=37) cnn_us=6273
+[2026-11-19T09:36:43.799544Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=30564352 queued=6254592 fed=30240000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:46.971566Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 211: top1=Background (id=126, q8=64) top2=Crested Serpent-Eagle (id=31, q8=30) cnn_us=6273
+[2026-11-19T09:36:46.982607Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=30709760 queued=6281216 fed=30384000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:50.162930Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 212: top1=Background (id=126, q8=176) top2=Greater Coucal (id=46, q8=29) cnn_us=6273
+[2026-11-19T09:36:50.174248Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=30855168 queued=6309888 fed=30528000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:53.323340Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 213: top1=Background (id=126, q8=210) top2=Verditer Flycatcher (id=108, q8=27) cnn_us=6273
+[2026-11-19T09:36:53.334347Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=30998528 queued=6338560 fed=30672000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:56.525556Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 214: top1=Background (id=126, q8=237) top2=Greater Coucal (id=46, q8=30) cnn_us=6273
+[2026-11-19T09:36:56.537677Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=31145984 queued=6365184 fed=30816000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:36:59.744337Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 215: top1=Southern Hill Myna (id=103, q8=92) top2=Indian Gray Hornbill (id=53, q8=52) cnn_us=6273
+[2026-11-19T09:36:59.756475Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=31293440 queued=6395904 fed=30960000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:02.938745Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 216: top1=Background (id=126, q8=248) top2=Eurasian Hoopoe (id=36, q8=22) cnn_us=6273
+[2026-11-19T09:37:02.949763Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=31436800 queued=6426624 fed=31104000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:06.101743Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 217: top1=Brown-headed Barbet (id=19, q8=107) top2=Spotted dove (id=104, q8=80) cnn_us=6273
+[2026-11-19T09:37:06.112746Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=31586304 queued=6457344 fed=31248000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:09.211058Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 218: top1=Background (id=126, q8=247) top2=Black-winged Kite (id=11, q8=22) cnn_us=6272
+[2026-11-19T09:37:09.222398Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=31731712 queued=6490112 fed=31392000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:12.319473Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 219: top1=Background (id=126, q8=130) top2=Alexandrine Parakeet (id=0, q8=45) cnn_us=6273
+[2026-11-19T09:37:12.330689Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=31877120 queued=6524928 fed=31536000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:15.408635Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 220: top1=Background (id=126, q8=228) top2=Laughing Dove (id=66, q8=24) cnn_us=6272
+[2026-11-19T09:37:15.420744Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=32018432 queued=6551552 fed=31680000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:18.654450Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 221: top1=Background (id=126, q8=70) top2=Lesser Coucal (id=67, q8=59) cnn_us=6273
+[2026-11-19T09:37:18.665963Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=32163840 queued=6580224 fed=31824000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:21.809402Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 222: top1=Background (id=126, q8=244) top2=Yellow-eyed Babbler (id=122, q8=25) cnn_us=6273
+[2026-11-19T09:37:21.820578Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=32309248 queued=6610944 fed=31968000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:24.976351Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 223: top1=Tree Pipit (id=107, q8=133) top2=Paddyfield Pipit (id=82, q8=77) cnn_us=6273
+[2026-11-19T09:37:24.987528Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=32454656 queued=6637568 fed=32112000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:28.161616Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 224: top1=Background (id=126, q8=141) top2=Alexandrine Parakeet (id=0, q8=41) cnn_us=6273
+[2026-11-19T09:37:28.172720Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=32600064 queued=6668288 fed=32256000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:31.345126Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 225: top1=Verditer Flycatcher (id=108, q8=103) top2=Ashy Prinia (id=2, q8=58) cnn_us=6273
+[2026-11-19T09:37:31.356078Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=32743424 queued=6694912 fed=32400000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:34.560454Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 226: top1=Background (id=126, q8=84) top2=Eurasian Coot (id=35, q8=48) cnn_us=6273
+[2026-11-19T09:37:34.571574Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=32890880 queued=6723584 fed=32544000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:37.749849Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 227: top1=Zitting Cisticola (id=125, q8=45) top2=Alexandrine Parakeet (id=0, q8=39) cnn_us=6273
+[2026-11-19T09:37:37.761220Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=33038336 queued=6752256 fed=32688000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:40.938700Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 228: top1=Background (id=126, q8=238) top2=Yellow-eyed Babbler (id=122, q8=23) cnn_us=6273
+[2026-11-19T09:37:40.949932Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=33181696 queued=6782976 fed=32832000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:44.092408Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 229: top1=White Wagtail (id=111, q8=165) top2=Western Yellow Wagtail (id=110, q8=125) cnn_us=6273
+[2026-11-19T09:37:44.103563Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=33329152 queued=6811648 fed=32976000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:47.246309Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 230: top1=Yellow-browed Warbler (id=121, q8=60) top2=Purple Sunbird (id=89, q8=58) cnn_us=6273
+[2026-11-19T09:37:47.257369Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=33476608 queued=6844416 fed=33120000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:50.391207Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 231: top1=White Wagtail (id=111, q8=65) top2=Alexandrine Parakeet (id=0, q8=38) cnn_us=6273
+[2026-11-19T09:37:50.402265Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=33622016 queued=6879232 fed=33264000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:53.474033Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 232: top1=White Wagtail (id=111, q8=116) top2=Western Yellow Wagtail (id=110, q8=53) cnn_us=6272
+[2026-11-19T09:37:53.485229Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=33763328 queued=6905856 fed=33408000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:56.701932Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 233: top1=Black-winged Kite (id=11, q8=62) top2=Gray Heron (id=42, q8=55) cnn_us=6273
+[2026-11-19T09:37:56.712981Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=33908736 queued=6936576 fed=33552000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:37:59.888138Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 234: top1=Crested Serpent-Eagle (id=31, q8=68) top2=Shikra (id=102, q8=62) cnn_us=6273
+[2026-11-19T09:37:59.899372Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=34054144 queued=6965248 fed=33696000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:03.080450Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 235: top1=Background (id=126, q8=95) top2=Jerdon's Nightjar (id=62, q8=41) cnn_us=6273
+[2026-11-19T09:38:03.091398Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=34201600 queued=6995968 fed=33840000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:06.231505Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 236: top1=White-breasted Waterhen (id=113, q8=187) top2=White-cheeked Barbet (id=115, q8=71) cnn_us=6273
+[2026-11-19T09:38:06.243933Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=34344960 queued=7024640 fed=33984000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:09.413461Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 237: top1=Background (id=126, q8=103) top2=Verditer Flycatcher (id=108, q8=44) cnn_us=6273
+[2026-11-19T09:38:09.424561Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=34488320 queued=7051264 fed=34128000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:12.612986Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 238: top1=Common Chiffchaff (id=22, q8=143) top2=White-browed Wagtail (id=114, q8=88) cnn_us=6273
+[2026-11-19T09:38:12.624022Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=34635776 queued=7079936 fed=34272000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:15.839409Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 239: top1=Background (id=126, q8=223) top2=Greater Coucal (id=46, q8=32) cnn_us=6273
+[2026-11-19T09:38:15.850777Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=34783232 queued=7110656 fed=34416000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:19.000513Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 240: top1=White-breasted Waterhen (id=113, q8=129) top2=Background (id=126, q8=75) cnn_us=6273
+[2026-11-19T09:38:19.011535Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=34928640 queued=7139328 fed=34560000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:22.186936Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 241: top1=Background (id=126, q8=120) top2=Alexandrine Parakeet (id=0, q8=36) cnn_us=6273
+[2026-11-19T09:38:22.198105Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=35074048 queued=7170048 fed=34704000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:25.331570Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 242: top1=White-throated Kingfisher (id=116, q8=216) top2=Black Kite (id=8, q8=60) cnn_us=6272
+[2026-11-19T09:38:25.342530Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=35221504 queued=7202816 fed=34848000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:28.436475Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 243: top1=Background (id=126, q8=54) top2=Black-winged Kite (id=11, q8=50) cnn_us=6273
+[2026-11-19T09:38:28.447484Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=35366912 queued=7237632 fed=34992000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:31.533550Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 244: top1=Yellow-eyed Babbler (id=122, q8=134) top2=Wire-tailed Swallow (id=117, q8=78) cnn_us=6273
+[2026-11-19T09:38:31.544653Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=35508224 queued=7264256 fed=35136000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:34.718036Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 245: top1=Background (id=126, q8=100) top2=Ashy Drongo (id=1, q8=56) cnn_us=6273
+[2026-11-19T09:38:34.728951Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=35653632 queued=7294976 fed=35280000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:37.890273Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 246: top1=Ashy Drongo (id=1, q8=159) top2=Golden-fronted Leafbird (id=41, q8=57) cnn_us=6273
+[2026-11-19T09:38:37.901438Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=35799040 queued=7323648 fed=35424000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:41.079307Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 247: top1=Background (id=126, q8=217) top2=Rock Pigeon (id=96, q8=25) cnn_us=6273
+[2026-11-19T09:38:41.090464Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=35944448 queued=7350272 fed=35568000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:44.265480Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 248: top1=Yellow-bellied Prinia (id=119, q8=220) top2=White-throated Kingfisher (id=116, q8=58) cnn_us=6273
+[2026-11-19T09:38:44.276628Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=36089856 queued=7380992 fed=35712000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:47.456876Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 249: top1=Background (id=126, q8=230) top2=Wire-tailed Swallow (id=117, q8=24) cnn_us=6273
+[2026-11-19T09:38:47.468158Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=36235264 queued=7409664 fed=35856000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:50.642002Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 250: top1=Crested Serpent-Eagle (id=31, q8=66) top2=Common Redshank (id=25, q8=44) cnn_us=6273
+[2026-11-19T09:38:50.653343Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=36380672 queued=7436288 fed=36000000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:53.869015Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 251: top1=Black-winged Kite (id=11, q8=63) top2=Alexandrine Parakeet (id=0, q8=53) cnn_us=6273
+[2026-11-19T09:38:53.880517Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=36526080 queued=7467008 fed=36144000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:38:57.064495Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 252: top1=Yellow-browed Warbler (id=121, q8=166) top2=White Wagtail (id=111, q8=53) cnn_us=6273
+[2026-11-19T09:38:57.075553Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=36671488 queued=7495680 fed=36288000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:39:00.238825Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 253: top1=Background (id=126, q8=215) top2=Ashy Drongo (id=1, q8=30) cnn_us=6273
+[2026-11-19T09:39:00.250258Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=36818944 queued=7524352 fed=36432000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:39:03.419036Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 254: top1=Background (id=126, q8=175) top2=Yellow-eyed Babbler (id=122, q8=59) cnn_us=6272
+[2026-11-19T09:39:03.431333Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=36966400 queued=7557120 fed=36576000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:39:06.525482Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 255: top1=Background (id=126, q8=193) top2=Paddyfield Pipit (id=82, q8=28) cnn_us=6273
+[2026-11-19T09:39:06.536495Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=37111808 queued=7591936 fed=36720000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:39:09.608411Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 256: top1=House Sparrow (id=52, q8=180) top2=Ashy Drongo (id=1, q8=75) cnn_us=6272
+[2026-11-19T09:39:09.619857Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=37253120 queued=7618560 fed=36864000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:39:12.837436Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 257: top1=Background (id=126, q8=124) top2=Red-rumped Swallow (id=91, q8=53) cnn_us=6273
+[2026-11-19T09:39:12.848538Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=37398528 queued=7649280 fed=37008000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:39:16.036540Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 258: top1=Ashy Drongo (id=1, q8=37) top2=River Lapwing (id=95, q8=37) cnn_us=6273
+[2026-11-19T09:39:16.048686Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=37545984 queued=7680000 fed=37152000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:39:19.188123Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 259: top1=Alexandrine Parakeet (id=0, q8=81) top2=Indian Gray Hornbill (id=53, q8=76) cnn_us=6273
+[2026-11-19T09:39:19.199363Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=37689344 queued=7706624 fed=37296000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:39:22.370440Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 260: top1=Background (id=126, q8=103) top2=Ashy Drongo (id=1, q8=54) cnn_us=6273
+[2026-11-19T09:39:22.381436Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=37834752 queued=7737344 fed=37440000 lost=0 high_water=17/18 blocks
+[2026-11-19T09:39:25.545620Z] C:0 [F:(../app/DetectTask.cpp), L:710] window 261: top1=European Roller (id=39, q8=61) top2=Ashy Drongo (id=1, q8=54) cnn_us=6273
+[2026-11-19T09:39:25.556484Z] C:0 [F:(../app/DetectTask.cpp), L:726] audio staging: captured=37978112 queued=7763968 fed=37584000 lost=0 high_water=17/18 blocks
