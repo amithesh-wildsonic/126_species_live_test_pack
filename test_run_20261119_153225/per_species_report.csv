@@ -1,2 +1,0 @@
-class_id,species_name,plays_completed,evaluable_windows,top1_hits,top2_only_hits,misses,no_eval_windows,top1_acc_pct,top2_acc_pct,error_rate_pct
-0,Alexandrine Parakeet,20,26,15,5,0,0,75.0,100.0,0.0

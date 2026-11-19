@@ -1,6 +1,0 @@
-class_id,species_name,plays_completed,evaluable_windows,top1_hits,top2_only_hits,misses,no_eval_windows,top1_acc_pct,top2_acc_pct,error_rate_pct
-0,Alexandrine Parakeet,2,0,0,0,0,2,0.0,0.0,0.0
-1,Ashy Drongo,2,0,0,0,0,2,0.0,0.0,0.0
-2,Ashy Prinia,2,0,0,0,0,2,0.0,0.0,0.0
-3,Asian Fairy-bluebird,2,0,0,0,0,2,0.0,0.0,0.0
-4,Asian Koel,2,1,0,0,1,1,0.0,0.0,50.0

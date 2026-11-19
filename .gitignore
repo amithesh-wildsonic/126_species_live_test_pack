@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test outputs and run artifacts
+test_run_*/
+full_126_*/
+full_126_run/
+full_126_species_run/
+
+# Common log and run output files
+*.log

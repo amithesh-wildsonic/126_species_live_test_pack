@@ -1,7 +1,0 @@
-event_id,event_type,species,class_id,filename,repeat_idx,host_start_utc,host_end_utc,duration_sec,evaluable_windows,outcome
-1,SILENCE,Background,126,silence_initial,0,2026-11-19T09:06:47.342246+00:00,2026-11-19T09:06:50.342315+00:00,3.0,0,PENDING
-2,SILENCE,Background,126,silence_before_Alexandrine_Parakeet_1.wav_r1,1,2026-11-19T09:06:50.342630+00:00,2026-11-19T09:06:53.342696+00:00,3.0,0,PENDING
-3,AUDIO,Alexandrine_Parakeet,0,Alexandrine_Parakeet_1.wav,1,2026-11-19T09:06:53.342772+00:00,2026-11-19T09:06:56.609898+00:00,3.267,0,NO_EVALUABLE_WINDOWS
-4,SILENCE,Background,126,silence_before_Ashy_Drongo_4.wav_r1,1,2026-11-19T09:06:56.610221+00:00,2026-11-19T09:06:59.610303+00:00,3.0,0,PENDING
-5,AUDIO,Ashy_Drongo,1,Ashy_Drongo_4.wav,1,2026-11-19T09:06:59.610402+00:00,2026-11-19T09:07:02.753988+00:00,3.144,0,NO_EVALUABLE_WINDOWS
-6,SILENCE,Background,126,silence_trailing,0,2026-11-19T09:07:02.754044+00:00,2026-11-19T09:07:06.754159+00:00,4.0,0,PENDING
