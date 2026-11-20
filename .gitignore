@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 # Test outputs and run artifacts
+results/
 test_run_*/
 full_126_*/
 full_126_run/

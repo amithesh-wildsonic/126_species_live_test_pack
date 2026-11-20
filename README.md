@@ -21,7 +21,7 @@ This test pack contains the complete 126-species bird audio dataset and an autom
 ```
 126_species_live_test_pack/
 ├── MANIFEST.csv                  # Maps each WAV file to its class ID, species name, and folder
-├── class_labels.txt              # TSV list of 126 bird species + Background (ID 126)
+├── class_labels.txt              # TSV(Tab-Separated Values) list of 126 bird species + Background (ID 126)
 ├── live_detection_test_runner.py # Automated test runner (ALSA/Windows audio + UART + OpenOCD)
 ├── README.md                     # Comprehensive documentation and usage guide
 ├── README.txt                    # Quick overview

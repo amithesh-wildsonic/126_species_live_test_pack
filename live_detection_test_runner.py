@@ -31,6 +31,7 @@ from typing import Dict, List, Optional, Tuple
 
 try:
     import serial
+    import serial.tools.list_ports
 except ImportError:
     print("Error: pyserial is required. Install with: pip install pyserial", file=sys.stderr)
     sys.exit(1)
@@ -160,7 +161,23 @@ class UartMonitor:
         )
 
     def open(self):
-        self.serial_conn = serial.Serial(self.port, self.baud, timeout=0.2, exclusive=True)
+        try:
+            self.serial_conn = serial.Serial(self.port, self.baud, timeout=0.2, exclusive=True)
+        except (serial.SerialException, FileNotFoundError, OSError) as e:
+            # Auto-fallback: search for available DAPLink or ACM ports
+            print(f"[!] Warning: Port {self.port} unavailable ({e}). Searching for active DAPLink / ACM serial ports...")
+            detected = []
+            for p in serial.tools.list_ports.comports():
+                if "ACM" in p.device or "USB" in p.device or "DAPLink" in (p.description or ""):
+                    detected.append(p.device)
+            if detected:
+                fallback = detected[0]
+                print(f"[+] Auto-detected active serial port: {fallback}. Connecting...")
+                self.port = fallback
+                self.serial_conn = serial.Serial(self.port, self.baud, timeout=0.2, exclusive=True)
+            else:
+                raise e
+
         self.serial_conn.reset_input_buffer()
         self.running = True
         self.thread = threading.Thread(target=self._read_loop, daemon=True)
@@ -528,6 +545,46 @@ class LiveDetectionTestRunner:
         print("[+] MCU recovered and restarted successfully.\n")
         return True
 
+    def record_playback_event(self, event: PlaybackEvent):
+        """Append playback event and flush directly to playback_timeline.csv so no data is lost on interrupt."""
+        self.events.append(event)
+        self.next_event_id += 1
+        timeline_csv = self.output_dir / "playback_timeline.csv"
+        file_exists = timeline_csv.exists()
+        try:
+            with open(timeline_csv, "a", newline="", encoding="utf-8") as f:
+                writer = csv.writer(f)
+                if not file_exists:
+                    writer.writerow([
+                        "event_id", "event_type", "species", "class_id", "filename", "repeat_idx",
+                        "host_start_utc", "host_end_utc", "duration_sec", "evaluable_windows", "outcome"
+                    ])
+                s_iso = datetime.datetime.fromtimestamp(event.host_start, datetime.timezone.utc).isoformat()
+                e_iso = datetime.datetime.fromtimestamp(event.host_end, datetime.timezone.utc).isoformat()
+                writer.writerow([
+                    event.event_id, event.event_type, event.species, event.class_id, event.filename, event.repeat_idx,
+                    s_iso, e_iso, round(event.duration, 3), len(event.evaluable_windows), event.outcome
+                ])
+                f.flush()
+        except Exception:
+            pass
+
+    def finalize_reports(self, target_species: List[str]):
+        """Align windows, generate all CSV/JSON/MD reports, and compute confusion matrix."""
+        print("\n[*] Aligning windows and computing metrics...")
+        try:
+            self.align_and_evaluate()
+            self.generate_reports(target_species)
+        except Exception as e:
+            print(f"[!] Warning: Error during metric generation: {e}", file=sys.stderr)
+
+        try:
+            from generate_confusion_matrix import load_data, generate_confusion_matrix
+            c_names, c_events, c_preds = load_data(self.output_dir, self.pack_dir)
+            generate_confusion_matrix(c_names, c_events, c_preds, self.output_dir)
+        except Exception as e:
+            print(f"[!] Warning: Could not generate confusion matrix: {e}", file=sys.stderr)
+
     def run(self):
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.load_metadata()
@@ -591,7 +648,7 @@ class LiveDetectionTestRunner:
         t_sil_start = time.time()
         self.wait_with_guard(self.silence_sec)
         t_sil_end = time.time()
-        self.events.append(PlaybackEvent(
+        self.record_playback_event(PlaybackEvent(
             event_id=self.next_event_id,
             event_type="SILENCE",
             species="Background",
@@ -632,7 +689,7 @@ class LiveDetectionTestRunner:
                         t_s_start = time.time()
                         self.wait_with_guard(self.silence_sec)
                         t_s_end = time.time()
-                        self.events.append(PlaybackEvent(
+                        self.record_playback_event(PlaybackEvent(
                             event_id=self.next_event_id,
                             event_type="SILENCE",
                             species="Background",
@@ -646,7 +703,6 @@ class LiveDetectionTestRunner:
                             mcu_end=t_s_end + self.uart.clock_offset_mcu_minus_host,
                             duration=t_s_end - t_s_start
                         ))
-                        self.next_event_id += 1
 
                     # Play Audio
                     if self.uart.uart_echo_flood:
@@ -659,7 +715,7 @@ class LiveDetectionTestRunner:
                     if self.uart.uart_echo_flood:
                         self.abort_due_to_uart_echo()
 
-                    self.events.append(PlaybackEvent(
+                    self.record_playback_event(PlaybackEvent(
                         event_id=self.next_event_id,
                         event_type="AUDIO",
                         species=species,
@@ -673,7 +729,6 @@ class LiveDetectionTestRunner:
                         mcu_end=t_a_end + self.uart.clock_offset_mcu_minus_host,
                         duration=actual_dur
                     ))
-                    self.next_event_id += 1
                     print("done.")
 
         # Post-test trailing silence to allow CNN pipeline to finish
@@ -681,7 +736,7 @@ class LiveDetectionTestRunner:
         t_trail_start = time.time()
         self.wait_with_guard(4.0)
         t_trail_end = time.time()
-        self.events.append(PlaybackEvent(
+        self.record_playback_event(PlaybackEvent(
             event_id=self.next_event_id,
             event_type="SILENCE",
             species="Background",
@@ -695,16 +750,14 @@ class LiveDetectionTestRunner:
             mcu_end=t_trail_end + self.uart.clock_offset_mcu_minus_host,
             duration=4.0
         ))
-        self.next_event_id += 1
 
         # Stop UART capture
         time.sleep(1.0)
         self.uart.close()
-        print("[*] Playback completed. Aligning windows and computing metrics...")
+        print("[*] Playback completed.")
 
         # 5. Align Predictions and Generate Reports
-        self.align_and_evaluate()
-        self.generate_reports(target_species)
+        self.finalize_reports(target_species)
 
     def align_and_evaluate(self):
         """
@@ -982,7 +1035,7 @@ def main():
     parser.add_argument("--pack-dir", type=Path, default=pack_default,
                         help="Directory containing MANIFEST.csv, class_labels.txt, and audio_by_species/")
     parser.add_argument("--output-dir", type=Path, default=None,
-                        help="Output directory for reports (default: test_run_<timestamp>)")
+                        help="Output directory for reports (default: results/test_run_<date>_<time>)")
     parser.add_argument("--port", type=str, default="/dev/ttyACM0",
                         help="Serial port for MCU UART (default: /dev/ttyACM0)")
     parser.add_argument("--baud", type=int, default=115200,
@@ -1006,9 +1059,15 @@ def main():
 
     args = parser.parse_args()
 
-    if args.output_dir is None:
+    # Default output directory: results/test_run_YYYYMMDD_HHMMSS
+    results_base = args.pack_dir / "results"
+    results_base.mkdir(parents=True, exist_ok=True)
+
+    if args.output_dir is None or str(args.output_dir).strip() in (".", "./"):
         ts = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-        args.output_dir = args.pack_dir / f"test_run_{ts}"
+        args.output_dir = results_base / f"test_run_{ts}"
+    elif not args.output_dir.is_absolute() and not str(args.output_dir).startswith("results"):
+        args.output_dir = results_base / args.output_dir
 
     sp_filter = None
     if args.species:
@@ -1032,9 +1091,28 @@ def main():
     try:
         runner.run()
     except KeyboardInterrupt:
-        print("\n[!] Test interrupted by user.")
+        print("\n\n[!] Test interrupted by user (Ctrl+C). Generating partial results from completed tests...")
         runner.uart.close()
+        # Retrieve target species tested so far
+        completed_species = list(dict.fromkeys(e.species for e in runner.events if e.event_type == "AUDIO"))
+        if not completed_species and runner.classes:
+            completed_species = [runner.classes.get(cid, str(cid)) for cid in sorted(runner.classes.keys())]
+        runner.finalize_reports(completed_species)
+        print(f"\n[+] Partial test results saved in: {runner.output_dir}")
         sys.exit(130)
+    except Exception as e:
+        print(f"\n\n[!] Unexpected error occurred: {e}", file=sys.stderr)
+        import traceback
+        traceback.print_exc()
+        try:
+            runner.uart.close()
+            completed_species = list(dict.fromkeys(e.species for e in runner.events if e.event_type == "AUDIO"))
+            if runner.events:
+                runner.finalize_reports(completed_species)
+                print(f"\n[+] Crash-recovery test results saved in: {runner.output_dir}")
+        except Exception:
+            pass
+        sys.exit(1)
 
 
 if __name__ == "__main__":
